@@ -212,6 +212,7 @@ export function HeroVisual() {
           alt=""
           width={200}
           height={200}
+          sizes="128px"
           className="h-28 w-28 animate-float opacity-90 [filter:brightness(0)_invert(1)] md:h-32 md:w-32"
         />
       </div>

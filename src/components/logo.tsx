@@ -32,6 +32,7 @@ export function Logo({
           width={1043}
           height={286}
           priority
+          sizes="128px"
           className="h-7 w-auto md:h-8"
         />
       ) : (
@@ -41,6 +42,7 @@ export function Logo({
           width={1024}
           height={1024}
           priority
+          sizes="128px"
           className="h-8 w-8"
         />
       )}

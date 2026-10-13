@@ -52,6 +52,10 @@ const securityHeaders = [
 const nextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
+  images: {
+    // Serve AVIF (smaller) with WebP fallback to cut image transfer size.
+    formats: ["image/avif", "image/webp"],
+  },
   turbopack: {
     // Pin the workspace root so a stray lockfile outside the repo cannot be
     // mistaken for the root (which otherwise changes module resolution).
