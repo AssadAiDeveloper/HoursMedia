@@ -1,0 +1,313 @@
+{
+  "common": {
+    "skipToContent": "Skip to content",
+    "languageLabel": "Language",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "allServices": "All services",
+    "allProjects": "All projects",
+    "allArticles": "All insights",
+    "concept": "Concept",
+    "internal": "Internal",
+    "client": "Client work",
+    "comingSoon": "Coming soon",
+    "externalLink": "Opens in a new tab",
+    "pauseMotion": "Pause animations",
+    "playMotion": "Play animations",
+    "errorTitle": "Something went wrong",
+    "errorBody": "An unexpected error occurred. Please try again, or come back in a moment.",
+    "retry": "Try again"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "work": "Our Projects",
+    "process": "Our Approach",
+    "insights": "Insights",
+    "about": "About",
+    "contact": "Contact",
+    "book": "Book a call",
+    "brief": "Start a brief"
+  },
+  "group": {
+    "presence": "Presence",
+    "content": "Content",
+    "operations": "Operations",
+    "apps": "Custom & AI"
+  },
+  "cta": {
+    "primary": "Start a project",
+    "book": "Book a call",
+    "brief": "Start a brief",
+    "viewServices": "Explore services",
+    "viewWork": "See the projects",
+    "talkToUs": "Talk to us",
+    "emailUs": "Email us"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Digital agency",
+      "title": "Presence, operations and custom tools for growing businesses",
+      "intro": "HoursMedia designs the front door, then builds the systems behind it: websites, search and social presence, GoHighLevel automation and custom apps that keep every enquiry moving.",
+      "primaryCta": "Start a project",
+      "secondaryCta": "Explore services"
+    },
+    "services": {
+      "eyebrow": "Services",
+      "title": "One team across the whole journey",
+      "intro": "From first impression to follow-up, we connect the pieces most agencies keep separate."
+    },
+    "process": {
+      "eyebrow": "How we work",
+      "title": "A clear process, no busywork",
+      "intro": "Every engagement follows the same four steps, sized to the problem."
+    },
+    "work": {
+      "eyebrow": "Selected projects",
+      "title": "Client work, concepts and internal builds",
+      "intro": "Everything here is labelled honestly: live client work, design concepts we created and a tool we built for ourselves."
+    },
+    "insights": {
+      "eyebrow": "Insights",
+      "title": "Notes on doing this well",
+      "intro": "Practical thinking on websites, customer journeys and honest automation."
+    },
+    "principles": {
+      "eyebrow": "How we operate",
+      "title": "Straight answers, honest claims",
+      "intro": "A few things we hold to, even when they cost us a sale.",
+      "items": {
+        "honest": {
+          "title": "Honest claims only",
+          "body": "No invented reviews, ratings or results. Concepts are always labelled as concepts."
+        },
+        "clear": {
+          "title": "Clarity over jargon",
+          "body": "We say what we will do, what we will not, and what it will cost before we start."
+        },
+        "partnership": {
+          "title": "Built to hand over",
+          "body": "You keep ownership of your site, data and accounts, with documentation to match."
+        }
+      }
+    }
+  },
+  "process": {
+    "meta": {
+      "title": "Our process",
+      "description": "How HoursMedia works: discover, design, build, then launch and support, with clear checkpoints and no surprises."
+    },
+    "eyebrow": "Our Approach",
+    "title": "A calm, four-step way to build",
+    "intro": "Every project moves through the same four steps. The depth changes with the problem; the order never does.",
+    "steps": {
+      "discover": {
+        "title": "Discover",
+        "body": "We map what you have, what is working and what a good outcome looks like, then agree the smallest useful scope that gets you there."
+      },
+      "design": {
+        "title": "Design",
+        "body": "Structure and message come first, then the visuals. You review real, responsive layouts rather than static pictures."
+      },
+      "build": {
+        "title": "Build",
+        "body": "We build for speed, accessibility and clarity, connecting the site to the systems that handle enquiries as we go."
+      },
+      "launch": {
+        "title": "Launch & support",
+        "body": "We ship, measure against the agreed scope, hand over documentation, and stay reachable for what comes next."
+      }
+    },
+    "engagement": {
+      "title": "How engagements work",
+      "intro": "No lock-in and no vague retainers. Choose the shape that fits where you are.",
+      "items": [
+        "A fixed-scope build with a clear definition of done",
+        "Ongoing improvements on a simple monthly rhythm",
+        "Automation and integration work as a focused project",
+        "Advisory and audits when you need a second opinion"
+      ]
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "About HoursMedia",
+      "description": "HoursMedia is a digital agency focused on websites, customer journeys, automation and custom tools, built honestly and handed over cleanly."
+    },
+    "eyebrow": "About",
+    "title": "A small agency built around doing this well",
+    "intro": "We are HoursMedia. We help businesses present themselves clearly online, then make sure the enquiries that arrive actually get handled.",
+    "story": {
+      "title": "Why we exist",
+      "paragraphs": [
+        "Most businesses do not have a website problem or an automation problem in isolation. They have a journey problem: attention arrives, then leaks away somewhere between a slow page, a shared inbox and a follow-up nobody sent.",
+        "We built HoursMedia to treat that journey as one thing. Presence, operations and custom tools are designed together, so the website, the systems and the people using them all point the same direction.",
+        "We would rather be honest than impressive. We label our concepts as concepts, we do not promise rankings we cannot control, and we tell you when a simpler tool will do the job."
+      ]
+    },
+    "values": {
+      "title": "What we care about",
+      "items": {
+        "honesty": {
+          "title": "Honesty",
+          "body": "No fake reviews, no hidden fees, no guarantees we cannot keep."
+        },
+        "craft": {
+          "title": "Craft",
+          "body": "Details matter: fast pages, readable type, accessible controls."
+        },
+        "ownership": {
+          "title": "Your ownership",
+          "body": "Your accounts, your data and your site stay yours, with documentation to match."
+        },
+        "clarity": {
+          "title": "Clarity",
+          "body": "Plain language, defined scopes and no surprise invoices."
+        }
+      }
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact",
+      "description": "Tell HoursMedia what you need. Send a short enquiry and we will reply with a clear next step."
+    },
+    "eyebrow": "Contact",
+    "title": "Tell us what you're working on",
+    "intro": "Share a few details and we will reply with a clear next step. No obligation and no pressure.",
+    "formHeading": "Send an enquiry",
+    "asideTitle": "Prefer something quicker?",
+    "asideBody": "If you would rather book a short call or send a fuller brief, those options are ready too.",
+    "responseNote": "We usually reply within two business days."
+  },
+  "book": {
+    "meta": {
+      "title": "Book a call",
+      "description": "Book a short introductory call with HoursMedia to talk through your project."
+    },
+    "eyebrow": "Book a call",
+    "title": "Find a time to talk",
+    "intro": "A short call to understand your goals and whether we are the right fit. No hard sell.",
+    "placeholderTitle": "Scheduling is coming soon",
+    "placeholderBody": "The booking calendar is being connected. In the meantime, send an enquiry and we will propose a few times that suit us both.",
+    "timezoneNote": "Calls are scheduled in {timezone}."
+  },
+  "brief": {
+    "meta": {
+      "title": "Start a brief",
+      "description": "Start a structured brief for your HoursMedia project so we can prepare a useful first reply."
+    },
+    "eyebrow": "Project brief",
+    "title": "Start a brief",
+    "intro": "A little more detail up front means a more useful first conversation. Nothing here is binding.",
+    "formHeading": "Project details",
+    "responseNote": "We will reply with clarifying questions or a suggested approach."
+  },
+  "servicesPage": {
+    "meta": {
+      "title": "Services",
+      "description": "Website design, social media, SEO, paid advertising, GoHighLevel automation, reputation management and custom apps & AI: the full range of what HoursMedia offers."
+    },
+    "eyebrow": "Services",
+    "title": "Everything we do, and how it fits together",
+    "intro": "Choose where you need help now, or combine them so presence and follow-up work as one system."
+  },
+  "servicePage": {
+    "faqsHeading": "Frequently asked questions",
+    "relatedHeading": "Related services",
+    "breadcrumbHome": "Home"
+  },
+  "workPage": {
+    "meta": {
+      "title": "Projects",
+      "description": "Client work, design concepts and internal builds from HoursMedia, clearly labelled."
+    },
+    "eyebrow": "Our Projects",
+    "title": "Client work, concepts and internal builds",
+    "intro": "Everything here is labelled honestly: live client work, design concepts we created and a tool we built for ourselves.",
+    "challengeLabel": "The brief",
+    "approachLabel": "Our approach",
+    "outcomeLabel": "What this is",
+    "noteLabel": "Note on the visual",
+    "servicesLabel": "Services involved"
+  },
+  "insightsPage": {
+    "meta": {
+      "title": "Insights",
+      "description": "Short, practical articles from HoursMedia on websites, customer journeys, search and honest automation."
+    },
+    "eyebrow": "Insights",
+    "title": "Notes on doing this well",
+    "intro": "Short, practical pieces on the work, with no fluff and no fake certainty.",
+    "readingLabel": "{minutes} min read"
+  },
+  "legal": {
+    "reviewedNotice": "This is an unreviewed draft. It is not indexed and will be reviewed before publication.",
+    "updatedLabel": "Last updated"
+  },
+  "footer": {
+    "tagline": "A digital agency for presence, operations and custom tools.",
+    "follow": "Follow",
+    "explore": "Explore",
+    "legal": "Legal",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "cookies": "Cookies",
+    "terms": "Terms",
+    "rights": "All rights reserved.",
+    "cookieSettings": "Cookie settings",
+    "contactUnavailable": "Contact details are being confirmed and are not published yet."
+  },
+  "forms": {
+    "name": "Name",
+    "email": "Email",
+    "company": "Company",
+    "phone": "Phone",
+    "budget": "Approximate budget",
+    "budgetOptional": "optional",
+    "message": "How can we help?",
+    "service": "Service of interest",
+    "consent": "I agree to be contacted about my enquiry.",
+    "submit": "Send enquiry",
+    "submitting": "Sending…",
+    "required": "required",
+    "selectPlaceholder": "Select one",
+    "successTitle": "Thank you. Your message is on its way.",
+    "successBody": "We have received your enquiry and will reply as soon as we can.",
+    "errorTitle": "We couldn't send that.",
+    "errorBody": "Something went wrong on our side. Please try again, or email us directly if it keeps happening.",
+    "retry": "Try again",
+    "validation": {
+      "nameRequired": "Please enter your name.",
+      "nameShort": "Please enter a little more of your name.",
+      "emailInvalid": "Please enter a valid email address.",
+      "messageRequired": "Please tell us a little about what you need.",
+      "messageShort": "Please add a few more details so we can help.",
+      "consentRequired": "Please confirm you're happy for us to contact you."
+    }
+  },
+  "consent": {
+    "title": "About cookies",
+    "body": "We use strictly necessary cookies to run this site. Analytics and advertising cookies are optional and only load with your permission.",
+    "accept": "Accept all",
+    "reject": "Reject optional",
+    "settings": "Settings",
+    "necessary": "Strictly necessary",
+    "necessaryBody": "Required for the site to work. Always on.",
+    "analytics": "Analytics",
+    "analyticsBody": "Helps us understand how the site is used.",
+    "ads": "Advertising",
+    "adsBody": "Used only if advertising is active.",
+    "save": "Save choices"
+  },
+  "meta": {
+    "title": "HoursMedia · Digital agency for presence, operations and custom tools",
+    "description": "HoursMedia designs websites, manages search and social presence, and builds GoHighLevel automation and custom tools for businesses that want a clear digital footprint."
+  },
+  "notFound": {
+    "title": "This page moved on",
+    "body": "The page you were looking for isn't here. It may have been renamed, or the link may be out of date.",
+    "cta": "Back to home"
+  }
+}

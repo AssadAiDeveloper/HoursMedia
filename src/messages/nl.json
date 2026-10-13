@@ -1,0 +1,313 @@
+{
+  "common": {
+    "skipToContent": "Naar inhoud",
+    "languageLabel": "Taal",
+    "menu": "Menu",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten",
+    "allServices": "Alle diensten",
+    "allProjects": "Alle projecten",
+    "allArticles": "Alle inzichten",
+    "concept": "Concept",
+    "internal": "Intern",
+    "client": "Klantwerk",
+    "comingSoon": "Binnenkort",
+    "externalLink": "Opent in een nieuw tabblad",
+    "pauseMotion": "Animaties pauzeren",
+    "playMotion": "Animaties afspelen",
+    "errorTitle": "Er is iets misgegaan",
+    "errorBody": "Er is een onverwachte fout opgetreden. Probeer het opnieuw of kom zo terug.",
+    "retry": "Opnieuw proberen"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Diensten",
+    "work": "Onze projecten",
+    "process": "Onze aanpak",
+    "insights": "Inzichten",
+    "about": "Over ons",
+    "contact": "Contact",
+    "book": "Plan een gesprek",
+    "brief": "Start een briefing"
+  },
+  "group": {
+    "presence": "Zichtbaarheid",
+    "content": "Content",
+    "operations": "Operatie",
+    "apps": "Maatwerk & AI"
+  },
+  "cta": {
+    "primary": "Start een project",
+    "book": "Plan een gesprek",
+    "brief": "Start een briefing",
+    "viewServices": "Bekijk diensten",
+    "viewWork": "Bekijk de projecten",
+    "talkToUs": "Neem contact op",
+    "emailUs": "Mail ons"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Digitaal bureau",
+      "title": "Zichtbaarheid, operatie en maatwerktools voor groeiende bedrijven",
+      "intro": "HoursMedia ontwerpt de voordeur en bouwt daarna de systemen erachter: websites, zichtbaarheid in zoeken en social, GoHighLevel-automatisering en maatwerkapps die elke aanvraag in beweging houden.",
+      "primaryCta": "Start een project",
+      "secondaryCta": "Bekijk diensten"
+    },
+    "services": {
+      "eyebrow": "Diensten",
+      "title": "Eén team over de hele reis",
+      "intro": "Van eerste indruk tot opvolging verbinden we de onderdelen die de meeste bureaus gescheiden houden."
+    },
+    "process": {
+      "eyebrow": "Werkwijze",
+      "title": "Een helder proces, geen drukte",
+      "intro": "Elke opdracht volgt dezelfde vier stappen, in de maat van het probleem."
+    },
+    "work": {
+      "eyebrow": "Uitgelichte projecten",
+      "title": "Klantwerk, concepten en interne projecten",
+      "intro": "Alles hier is eerlijk gelabeld: live klantwerk, zelfgemaakte ontwerpconcepten en een tool die we voor onszelf bouwden."
+    },
+    "insights": {
+      "eyebrow": "Inzichten",
+      "title": "Notities over dit goed doen",
+      "intro": "Praktisch denken over websites, klantreizen en eerlijke automatisering."
+    },
+    "principles": {
+      "eyebrow": "Hoe we werken",
+      "title": "Heldere antwoorden, eerlijke claims",
+      "intro": "Een paar dingen waar we aan vasthouden, ook als het ons een opdracht kost.",
+      "items": {
+        "honest": {
+          "title": "Alleen eerlijke claims",
+          "body": "Geen verzonnen reviews, scores of resultaten. Concepten zijn altijd als concept gelabeld."
+        },
+        "clear": {
+          "title": "Helderheid boven jargon",
+          "body": "We zeggen wat we doen, wat we niet doen en wat het kost, vóór we beginnen."
+        },
+        "partnership": {
+          "title": "Gebouwd om over te dragen",
+          "body": "U behoudt eigendom van uw site, data en accounts, met bijpassende documentatie."
+        }
+      }
+    }
+  },
+  "process": {
+    "meta": {
+      "title": "Onze werkwijze",
+      "description": "Hoe HoursMedia werkt: ontdekken, ontwerpen, bouwen en dan lanceren en ondersteunen, met heldere checkpoints en zonder verrassingen."
+    },
+    "eyebrow": "Onze aanpak",
+    "title": "Een rustige werkwijze in vier stappen",
+    "intro": "Elk project doorloopt dezelfde vier stappen. De diepte verschilt per probleem; de volgorde nooit.",
+    "steps": {
+      "discover": {
+        "title": "Ontdekken",
+        "body": "We brengen in kaart wat u heeft, wat werkt en hoe een goed resultaat eruitziet, en bepalen dan de kleinste nuttige scope."
+      },
+      "design": {
+        "title": "Ontwerpen",
+        "body": "Structuur en boodschap eerst, dan het beeld. U beoordeelt echte, responsieve layouts in plaats van statische plaatjes."
+      },
+      "build": {
+        "title": "Bouwen",
+        "body": "We bouwen voor snelheid, toegankelijkheid en duidelijkheid, en koppelen de site onderweg aan de systemen die aanvragen opvangen."
+      },
+      "launch": {
+        "title": "Lancering & support",
+        "body": "We leveren op, meten tegen de afgesproken scope, dragen documentatie over en blijven bereikbaar voor wat volgt."
+      }
+    },
+    "engagement": {
+      "title": "Hoe opdrachten werken",
+      "intro": "Geen lock-in en geen vage retainters. Kies de vorm die bij u past.",
+      "items": [
+        "Een bouw met vaste scope en een duidelijke definitie van klaar",
+        "Doorlopende verbeteringen in een simpel maandritme",
+        "Automatisering en integratie als gericht project",
+        "Advies en audits wanneer u een tweede mening nodig heeft"
+      ]
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Over HoursMedia",
+      "description": "HoursMedia is een digitaal bureau gericht op websites, klantreizen, automatisering en maatwerktools, eerlijk gebouwd en netjes overgedragen."
+    },
+    "eyebrow": "Over ons",
+    "title": "Een klein bureau dat dit goed wil doen",
+    "intro": "Wij zijn HoursMedia. We helpen bedrijven zich helder online te presenteren en zorgen daarna dat binnengekomen aanvragen ook echt worden opgepakt.",
+    "story": {
+      "title": "Waarom we bestaan",
+      "paragraphs": [
+        "De meeste bedrijven hebben niet los een websiteprobleem of een automatiseringsprobleem. Ze hebben een reisprobleem: aandacht komt binnen en lekt weg tussen een trage pagina, een gedeeld postvak en een opvolging die niemand stuurde.",
+        "We bouwden HoursMedia om die reis als één geheel te behandelen. Zichtbaarheid, operatie en maatwerktools worden samen ontworpen, zodat de site, de systemen en de mensen die ze gebruiken dezelfde kant op wijzen.",
+        "We zijn liever eerlijk dan indrukwekkend. We labelen onze concepten als concept, beloven geen rankings die we niet kunnen sturen, en zeggen het als een eenvoudiger tool volstaat."
+      ]
+    },
+    "values": {
+      "title": "Waar we om geven",
+      "items": {
+        "honesty": {
+          "title": "Eerlijkheid",
+          "body": "Geen nep-reviews, geen verborgen kosten, geen beloftes die we niet kunnen houden."
+        },
+        "craft": {
+          "title": "Vakmanschap",
+          "body": "Details tellen: snelle pagina's, leesbare typografie, toegankelijke bediening."
+        },
+        "ownership": {
+          "title": "Uw eigendom",
+          "body": "Uw accounts, data en site blijven van u, met passende documentatie."
+        },
+        "clarity": {
+          "title": "Duidelijkheid",
+          "body": "Gewone taal, afgebakende scopes en geen verrassingsfacturen."
+        }
+      }
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact",
+      "description": "Vertel HoursMedia wat u nodig heeft. Stuur een korte aanvraag en we reageren met een heldere volgende stap."
+    },
+    "eyebrow": "Contact",
+    "title": "Vertel ons waar u aan werkt",
+    "intro": "Deel een paar details en we reageren met een heldere volgende stap. Zonder verplichting en zonder druk.",
+    "formHeading": "Stuur een aanvraag",
+    "asideTitle": "Liever iets snellers?",
+    "asideBody": "Wilt u liever een kort gesprek plannen of een uitgebreidere briefing sturen? Die opties staan ook klaar.",
+    "responseNote": "We reageren meestal binnen twee werkdagen."
+  },
+  "book": {
+    "meta": {
+      "title": "Plan een gesprek",
+      "description": "Plan een kort introductiegesprek met HoursMedia om uw project te bespreken."
+    },
+    "eyebrow": "Plan een gesprek",
+    "title": "Vind een moment om te praten",
+    "intro": "Een kort gesprek om uw doelen te begrijpen en te zien of we passen. Geen harde verkoop.",
+    "placeholderTitle": "Planning komt binnenkort",
+    "placeholderBody": "De agenda wordt nog gekoppeld. Stuur in de tussentijd een aanvraag en we stellen een paar momenten voor die ons beiden passen.",
+    "timezoneNote": "Gesprekken worden gepland in {timezone}."
+  },
+  "brief": {
+    "meta": {
+      "title": "Start een briefing",
+      "description": "Start een gestructureerde briefing voor uw HoursMedia-project zodat we een nuttige eerste reactie kunnen voorbereiden."
+    },
+    "eyebrow": "Projectbriefing",
+    "title": "Start een briefing",
+    "intro": "Iets meer detail vooraf betekent een nuttiger eerste gesprek. Niets hier is bindend.",
+    "formHeading": "Projectdetails",
+    "responseNote": "We reageren met verhelderende vragen of een voorgestelde aanpak."
+  },
+  "servicesPage": {
+    "meta": {
+      "title": "Diensten",
+      "description": "Webdesign, social media, SEO, advertenties, GoHighLevel-automatisering, reputatiemanagement en maatwerkapps & AI: het volledige aanbod van HoursMedia."
+    },
+    "eyebrow": "Diensten",
+    "title": "Alles wat we doen, en hoe het samenhangt",
+    "intro": "Kies waar u nu hulp nodig heeft, of combineer ze zodat zichtbaarheid en opvolging als één systeem werken."
+  },
+  "servicePage": {
+    "faqsHeading": "Veelgestelde vragen",
+    "relatedHeading": "Gerelateerde diensten",
+    "breadcrumbHome": "Home"
+  },
+  "workPage": {
+    "meta": {
+      "title": "Projecten",
+      "description": "Klantwerk, ontwerpconcepten en interne projecten van HoursMedia, eerlijk gelabeld."
+    },
+    "eyebrow": "Onze projecten",
+    "title": "Klantwerk, concepten en interne projecten",
+    "intro": "Alles hier is eerlijk gelabeld: live klantwerk, zelfgemaakte ontwerpconcepten en een tool die we voor onszelf bouwden.",
+    "challengeLabel": "De opdracht",
+    "approachLabel": "Onze aanpak",
+    "outcomeLabel": "Wat dit is",
+    "noteLabel": "Toelichting bij het beeld",
+    "servicesLabel": "Betrokken diensten"
+  },
+  "insightsPage": {
+    "meta": {
+      "title": "Inzichten",
+      "description": "Korte, praktische artikelen van HoursMedia over websites, klantreizen, zoeken en eerlijke automatisering."
+    },
+    "eyebrow": "Inzichten",
+    "title": "Notities over dit goed doen",
+    "intro": "Korte, praktische stukken over het werk, zonder franje en zonder valse zekerheid.",
+    "readingLabel": "{minutes} min leestijd"
+  },
+  "legal": {
+    "reviewedNotice": "Dit is een niet-beoordeelde concepttekst. Deze wordt niet geïndexeerd en wordt vóór publicatie beoordeeld.",
+    "updatedLabel": "Laatst bijgewerkt"
+  },
+  "footer": {
+    "tagline": "Een digitaal bureau voor zichtbaarheid, operatie en maatwerktools.",
+    "follow": "Volg",
+    "explore": "Ontdek",
+    "legal": "Juridisch",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "cookies": "Cookies",
+    "terms": "Voorwaarden",
+    "rights": "Alle rechten voorbehouden.",
+    "cookieSettings": "Cookie-instellingen",
+    "contactUnavailable": "Contactgegevens worden nog bevestigd en zijn nog niet gepubliceerd."
+  },
+  "forms": {
+    "name": "Naam",
+    "email": "E-mail",
+    "company": "Bedrijf",
+    "phone": "Telefoon",
+    "budget": "Indicatief budget",
+    "budgetOptional": "optioneel",
+    "message": "Hoe kunnen we helpen?",
+    "service": "Dienst van interesse",
+    "consent": "Ik ga ermee akkoord dat u contact met mij opneemt over mijn aanvraag.",
+    "submit": "Aanvraag versturen",
+    "submitting": "Versturen…",
+    "required": "verplicht",
+    "selectPlaceholder": "Maak een keuze",
+    "successTitle": "Bedankt. Uw bericht is onderweg.",
+    "successBody": "We hebben uw aanvraag ontvangen en reageren zo snel mogelijk.",
+    "errorTitle": "Versturen is niet gelukt.",
+    "errorBody": "Er ging iets mis aan onze kant. Probeer het opnieuw, of mail ons direct als het blijft gebeuren.",
+    "retry": "Opnieuw proberen",
+    "validation": {
+      "nameRequired": "Vul uw naam in.",
+      "nameShort": "Vul iets meer van uw naam in.",
+      "emailInvalid": "Vul een geldig e-mailadres in.",
+      "messageRequired": "Vertel ons kort waar u behoefte aan heeft.",
+      "messageShort": "Voeg wat meer details toe zodat we kunnen helpen.",
+      "consentRequired": "Bevestig dat we contact met u mogen opnemen."
+    }
+  },
+  "consent": {
+    "title": "Over cookies",
+    "body": "We gebruiken strikt noodzakelijke cookies om deze site te laten werken. Analytische en advertentiecookies zijn optioneel en laden alleen met uw toestemming.",
+    "accept": "Alles accepteren",
+    "reject": "Optionele weigeren",
+    "settings": "Instellingen",
+    "necessary": "Strikt noodzakelijk",
+    "necessaryBody": "Nodig om de site te laten werken. Altijd aan.",
+    "analytics": "Analytisch",
+    "analyticsBody": "Helpt ons begrijpen hoe de site wordt gebruikt.",
+    "ads": "Advertenties",
+    "adsBody": "Alleen gebruikt als advertenties actief zijn.",
+    "save": "Keuzes opslaan"
+  },
+  "meta": {
+    "title": "HoursMedia · Digitaal bureau voor zichtbaarheid, operatie en maatwerktools",
+    "description": "HoursMedia ontwerpt websites, beheert zoek- en sociale zichtbaarheid en bouwt GoHighLevel-automatisering en maatwerktools voor bedrijven die een duidelijke digitale voetafdruk willen."
+  },
+  "notFound": {
+    "title": "Deze pagina is verplaatst",
+    "body": "De pagina die u zocht is er niet. Mogelijk is deze hernoemd of is de link verouderd.",
+    "cta": "Terug naar home"
+  }
+}

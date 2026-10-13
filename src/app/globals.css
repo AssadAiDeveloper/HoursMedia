@@ -1,0 +1,434 @@
+@import "tailwindcss";
+
+/*
+ * HoursMedia design tokens (Tailwind CSS v4 `@theme`).
+ * Every token below becomes a utility (e.g. `bg-charcoal`, `text-gold`).
+ *
+ * Colour intent:
+ *  - charcoal / charcoal-deep : primary dark surfaces and headings on light
+ *  - gold                      : accent ONLY on dark surfaces or as decoration
+ *  - gold-strong               : the accessible gold for small text on light
+ *  - offwhite / white          : page and card surfaces
+ *  - ink / ink-muted           : body copy, both verified >= 7:1 on offwhite
+ *  - line / line-strong        : warm gray borders
+ */
+@theme {
+  --color-charcoal: #242424;
+  --color-charcoal-deep: #151515;
+  --color-charcoal-700: #2f2f2f;
+  --color-charcoal-600: #3d3d3d;
+
+  --color-gold: #e9b443;
+  --color-gold-soft: #f6dfa8;
+  --color-gold-strong: #7a5c12;
+
+  --color-offwhite: #faf9f6;
+  --color-white: #ffffff;
+
+  --color-ink: #1c1b19;
+  --color-ink-muted: #55524a;
+
+  --color-line: #e5e1d8;
+  --color-line-strong: #cfc9bb;
+  /* Form-control boundary: >= 3:1 against offwhite/white (WCAG 1.4.11). */
+  --color-field-line: #948d78;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", sans-serif;
+  --font-display: var(--font-newsreader), Georgia, "Times New Roman", serif;
+  --font-arabic: var(--font-noto-arabic), var(--font-inter), "Segoe UI",
+    ui-sans-serif, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, "SFMono-Regular",
+    Menlo, monospace;
+
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+
+  --shadow-plate: 0 1px 0 rgba(21, 21, 21, 0.04),
+    0 18px 40px -28px rgba(21, 21, 21, 0.28);
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body {
+    background-color: var(--color-offwhite);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    text-underline-offset: 0.2em;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    color: var(--color-charcoal-deep);
+    font-weight: 500;
+    line-height: 1.08;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+  }
+
+  h1 {
+    line-height: 1.02;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :focus-visible {
+    /* Two-tone ring so focus stays visible on light AND dark surfaces:
+       the charcoal outline shows on light backgrounds, the gold halo on dark. */
+    outline: 2px solid var(--color-charcoal);
+    outline-offset: 2px;
+    border-radius: 2px;
+    box-shadow: 0 0 0 4px var(--color-gold);
+  }
+
+  ::selection {
+    background-color: var(--color-gold);
+    color: var(--color-charcoal-deep);
+  }
+
+  [id] {
+    scroll-margin-top: 6rem;
+  }
+
+  /* Arabic: no letter-spacing, generous line-height, Arabic font. */
+  html[lang="ar"] body {
+    font-family: var(--font-arabic);
+  }
+
+  html[lang="ar"] h1,
+  html[lang="ar"] h2,
+  html[lang="ar"] h3,
+  html[lang="ar"] h4 {
+    font-family: var(--font-arabic);
+    letter-spacing: 0;
+    line-height: 1.28;
+    font-weight: 600;
+  }
+
+  html[lang="ar"] p,
+  html[lang="ar"] li {
+    line-height: 1.9;
+  }
+
+  /* Keep technical strings readable inside RTL text. */
+  html[dir="rtl"] .bidi-isolate {
+    unicode-bidi: isolate;
+    direction: ltr;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* Page container: fluid gutters, comfortable max width. */
+@utility container-page {
+  width: 100%;
+  max-width: 78rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+
+  @media (width >= 48rem) {
+    padding-inline: 2rem;
+  }
+
+  @media (width >= 80rem) {
+    padding-inline: 2.5rem;
+  }
+}
+
+/* Narrow reading measure for editorial and legal copy. */
+@utility container-read {
+  width: 100%;
+  max-width: 46rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+/* Small uppercase label used above headings. */
+@utility eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+html[lang="ar"] .eyebrow {
+  letter-spacing: 0;
+  font-family: var(--font-arabic);
+}
+
+/* Larger section divider label, sized to sit above big headings. */
+.eyebrow-lg {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 650;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.eyebrow-lg::before {
+  content: "";
+  width: 1.5rem;
+  height: 1px;
+  background-color: currentColor;
+  opacity: 0.7;
+}
+
+html[lang="ar"] .eyebrow-lg {
+  letter-spacing: 0;
+  font-family: var(--font-arabic);
+}
+
+/* Fine grid / measurement background for diagrams. */
+@utility blueprint {
+  background-image: linear-gradient(
+      to right,
+      color-mix(in srgb, var(--color-line) 70%, transparent) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      color-mix(in srgb, var(--color-line) 70%, transparent) 1px,
+      transparent 1px
+    );
+  background-size: 28px 28px;
+}
+
+.reveal-init {
+  opacity: 0;
+  transform: translateY(16px);
+}
+
+.reveal-in {
+  opacity: 1;
+  transform: none;
+  transition: opacity 0.7s var(--ease-out-soft),
+    transform 0.7s var(--ease-out-soft);
+}
+
+/* Without motion (or without JS enhancement) content must never stay hidden. */
+@media (prefers-reduced-motion: reduce) {
+  .reveal-init {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * Motion primitives
+ * All animations are disabled by the global prefers-reduced-motion rule above,
+ * so they only ever run for visitors who have not asked for reduced motion.
+ * ------------------------------------------------------------------------ */
+@keyframes hm-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes hm-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes hm-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes hm-spin-slow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hm-spin-reverse {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes hm-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes hm-pulse-dot {
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.25);
+  }
+}
+
+@keyframes hm-sheen {
+  from {
+    transform: translateX(-120%);
+  }
+  to {
+    transform: translateX(220%);
+  }
+}
+
+.animate-fade-up {
+  animation: hm-fade-up 0.8s var(--ease-out-soft) both;
+}
+
+.animate-fade-in {
+  animation: hm-fade-in 0.9s var(--ease-out-soft) both;
+}
+
+.animate-float {
+  animation: hm-float 6.5s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: hm-spin-slow 28s linear infinite;
+}
+
+.animate-spin-reverse {
+  animation: hm-spin-reverse 44s linear infinite;
+}
+
+.animate-pulse-dot {
+  animation: hm-pulse-dot 3.5s ease-in-out infinite;
+}
+
+/* Slow orbital rings around the hero mark. The `reverse` ring spins the
+   opposite way at the same speed; icons inside it counter-rotate at the same
+   phase so glyphs stay upright while travelling around the hourglass. */
+.orbit-ring {
+  animation: hm-spin-slow 40s linear infinite;
+  will-change: transform;
+}
+
+.orbit-ring-reverse {
+  animation: hm-spin-reverse 40s linear infinite;
+  will-change: transform;
+}
+
+/* Infinite keyword strip. The track holds 4 identical copies and is
+   translated -50% (two periods), which loops with no visible seam.
+   Deliberately slow: one full cycle takes ~50s. */
+.marquee-track {
+  animation: hm-marquee 50s linear infinite;
+  will-change: transform;
+}
+
+.marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+/* Visitor-facing pause control (WCAG 2.2.2), toggled by <MotionToggle>. */
+html.hm-motion-paused *,
+html.hm-motion-paused *::before,
+html.hm-motion-paused *::after {
+  animation-play-state: paused !important;
+}
+
+/* Slow diagonal light sweep for the hero mark. */
+@keyframes hm-sheen {
+  0%,
+  100% {
+    background-position: 130% 130%;
+  }
+  50% {
+    background-position: -30% -30%;
+  }
+}
+
+.animate-sheen {
+  background-image: linear-gradient(
+    115deg,
+    transparent 32%,
+    color-mix(in srgb, var(--color-gold) 22%, transparent) 50%,
+    transparent 68%
+  );
+  background-size: 220% 220%;
+  background-repeat: no-repeat;
+  animation: hm-sheen 7s ease-in-out infinite;
+}
+
+/* Soft brand glow used behind dark hero and CTA surfaces. */
+@utility glow-warm {
+  background-image: radial-gradient(
+      55% 70% at 15% 0%,
+      color-mix(in srgb, var(--color-gold) 30%, transparent),
+      transparent 62%
+    ),
+    radial-gradient(
+      45% 60% at 100% 30%,
+      color-mix(in srgb, var(--color-gold-soft) 22%, transparent),
+      transparent 60%
+    );
+}
+
+/* Light, airy wash for editorial sections. */
+@utility wash-warm {
+  background-image: radial-gradient(
+    60% 50% at 80% 0%,
+    color-mix(in srgb, var(--color-gold-soft) 45%, transparent),
+    transparent 70%
+  );
+}
