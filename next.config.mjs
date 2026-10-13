@@ -60,6 +60,11 @@ const nextConfig = {
     // Pin the workspace root so a stray lockfile outside the repo cannot be
     // mistaken for the root (which otherwise changes module resolution).
     root: import.meta.dirname,
+    resolveAlias: {
+      "../build/polyfills/polyfill-module": "./empty-polyfill.js",
+      "next/dist/build/polyfills/polyfill-module":
+        "./empty-polyfill.js",
+    },
     rules: {
       "*.css": {
         loaders: ["@tailwindcss/turbopack"],
