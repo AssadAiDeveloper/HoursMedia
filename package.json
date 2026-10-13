@@ -22,6 +22,11 @@
   "overrides": {
     "@swc/core": "1.16.0"
   },
+  "allowScripts": {
+    "@parcel/watcher": false,
+    "@swc/core": false,
+    "unrs-resolver": false
+  },
   "devDependencies": {
     "@playwright/test": "^1.55.1",
     "@tailwindcss/turbopack": "^4",
