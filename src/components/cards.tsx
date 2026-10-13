@@ -75,7 +75,7 @@ export function ProjectCard({
           slug={slug}
           palette={palette}
           image={image}
-          sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+          sizes="(min-width: 1200px) 384px, (min-width: 768px) 33vw, 100vw"
           className="h-full w-full transition-transform duration-500 group-hover:scale-[1.06]"
         />
         <span
