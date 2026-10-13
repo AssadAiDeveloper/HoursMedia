@@ -31,10 +31,9 @@ export const siteConfig = {
   },
   founded: null as number | null,
   /** Public site origin. Set NEXT_PUBLIC_SITE_URL in every environment. */
-  url: (process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000").replace(
-    /\/$/,
-    "",
-  ),
+  url: (process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000")
+    .trim()
+    .replace(/\/+$/, ""),
   contact: {
     email: null as string | null,
     phone: null as ContactChannel | null,
